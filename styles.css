@@ -1,0 +1,33 @@
+#calc{
+    border: 3px solid black;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+#display{
+    border: 2px solid black;
+    height: 75px;
+    margin: 20px;
+    align-content: center;
+    text-align: end;
+    padding-right: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#numpad{
+    height: 465px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+#clr-btn{
+    margin-right: 20px;
+    margin-left: 20px;
+}
